@@ -1,11 +1,11 @@
-### Warning
+### Running
 
-There is a `.env.default` file that adds `root` to the list of banned users. DO NOT REMOVE THIS UNLESS YOU KNOW WHAT YOU'RE DOING!
+If you are using `pm2` to manage your node apps.
 
-### To Run
+Use `pm2 start myconfig.config.json`. An example config is given in `local.config.json`
+For production `pm2 start local.config.json`
 
-To run BeautyFile, you just need to add a watch directory and a port number like so:
+### Setting up a custom url
 
-`node src/index.js /home/username/pictures 8080`
-
-Or you can use `pm2 start myconfig.config.json`. An example config is given in `local.config.json`
+Modify index.js to the url you would like to utilize. 
+Make sure that src/views/env is setup with a proper base url. 

@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "btfile",
+      "script": "npm",
+      "args": "run dev-js /home/username/pictures 8080"
+    }
+  ]
+}

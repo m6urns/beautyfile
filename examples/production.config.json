@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "btfile-data",
+      "script": "npm",
+      "args": "run production /home/data 4022"
+    }
+  ]
+}
